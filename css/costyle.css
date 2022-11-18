@@ -1,0 +1,204 @@
+@font-face {
+    /*font-properties*/
+    font-family: xiaomaiti;
+    src: url('../fonts/xiaomaiti.ttf'),
+      url('../fonts/xiaomaiti.ttf');
+  }
+  
+  
+  .navbar {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+
+  }
+  
+  .navbar__container {
+    display: flex;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+  
+  .navbar__links {
+    margin-left: 5%;
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: right;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+  }
+  
+  #navbar__logo {
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    width: 600px;
+    font-weight: bold;
+  }
+  
+  * {
+    font-family: 'xiaomaiti';
+    scroll-behavior: smooth;
+  }
+
+
+  .gamechoose{
+    /* background: url(../imgs/background1.png); */
+    background-position: fixed;
+	background-size: cover;
+  }
+
+  .interestchoose{
+    /* background: url(../imgs/background2.png); */
+    background-position: fixed;
+	  background-size: cover;
+  }
+
+  .testchoose{
+      /* height: 100%; */
+      /* top:10%; */
+      margin-top: 0;
+      background-image: linear-gradient(to bottom,rgb(49,164,115) 45% ,#FFF 0%);
+  }
+  
+  .personal{
+    height: 100%;
+    background-image: linear-gradient(to bottom,rgb(216,165,55) 45% ,#FFF 0%);
+
+  }
+  .tb{
+    height: 50px;
+    width: 200px;
+    color: #FFF;
+    background-color: rgb(137,96,155);
+    border-radius: 18px;
+    border: 0ch;
+    font-size: 1.4em;
+    cursor: pointer;
+  }
+  .tb:hover{
+    height: 50px;
+    width: 200px;
+    color: #FFF;
+    background-color: rgb(137,96,155);
+    border-radius: 18px;
+    border: 0ch;
+    font-size: 1.8em;
+    cursor: pointer;
+  }
+
+  #gt{
+      margin: auto;
+  }
+  #gd{
+      width: 300px;
+      height: 160px;
+  }
+  
+  .gb{
+    height: 50px;
+    width: 200px;
+    color: #FFF;
+    background-color: rgb(70,144,126);
+    border-radius: 18px;
+    border: 0ch;
+    font-size: 1.4em;
+    cursor: pointer;
+  }
+  .gb:hover{
+    height: 50px;
+    width: 200px;
+    color: #FFF;
+    background-color: rgb(70,144,126);
+    border-radius: 18px;
+    border: 0ch;
+    font-size: 1.8em;
+    cursor: pointer;
+  }
+
+  .pb{
+    height: 50px;
+    width: 200px;
+    color: rgb(216, 165, 55);
+    background-color:white;
+    border-radius: 18px;
+    border: 0ch;
+    font-size: 1.4em;
+    cursor: pointer;
+  }
+  .pb:hover{
+    height: 50px;
+    width: 200px;
+    color: rgb(216, 165, 55);
+    background-color:white;
+    border-radius: 18px;
+    border: 0ch;
+    font-size: 1.8em;
+    cursor: pointer;
+  }
+
+#pt{
+    margin: auto;
+}
+#pd{
+    width: 400px;
+    height: 100px;
+}
+
+  input{
+    height: 40px;
+    border:solid rgb(216,165,55) 3px;
+    font-size: large;
+    border-radius: 18px;
+    text-align: center;
+    
+  }
+  select{
+    height: 50px;
+    width: 250px;
+    border:solid rgb(216,165,55) 3px;
+    font-size: large;
+    border-radius: 18px;
+    text-align: center;
+    margin-left: 23%;
+    color: gray;
+  }
+  
+  .ip{
+    width: 60px;
+    height: 60px;
+  }
+
+  #it{
+    margin: auto;
+  }
+  #id{
+    width: 200px;
+    height: 80px;
+  }
+
+  #ib{
+    height: 50px;
+    width: 150px;
+    position: relative;
+    border-radius: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: transparent;
+    color: white;
+    background-color: rgb(80, 123, 157);
+  }
